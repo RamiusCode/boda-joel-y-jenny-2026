@@ -1,13 +1,5 @@
 ---
 // src/components/Portada.astro - Portada elegante con hojas animadas y fondo texturizado
-// La prop `invitado` es opcional: si no llega, la portada es la genérica de
-// siempre; si llega, aparece el cuadro con el nombre debajo de la fecha.
-interface Props {
-    invitado?: string;
-}
-const { invitado } = Astro.props;
-
-const FECHA = "Domingo 27 de Septiembre";
 ---
 
 <section
@@ -87,132 +79,52 @@ const FECHA = "Domingo 27 de Septiembre";
             <!-- Título: ¡NOS CASAMOS! -->
             <h1
                 id="titulo"
-                class={`${invitado ? "text-lg mb-3" : "text-xl mb-8"} font-serif text-[#8C1D2F] text-center tracking-[0.3em] font-bold uppercase`}
+                class="text-xl font-serif text-[#8C1D2F] text-center mb-8 tracking-[0.3em] font-bold uppercase"
             >
                 ¡Nos Casamos!
             </h1>
 
-            <!-- Nombres de los novios -->
-            {
-                invitado ? (
-                    // Versión con invitado: los dos nombres en una sola línea y
-                    // el filete decorativo debajo, para dejar sitio al cuadro.
-                    <div class="mb-6">
-                        <div class="flex items-center justify-center gap-3 whitespace-nowrap">
-                            <div
-                                id="nombre-fernando"
-                                class="text-[clamp(2.25rem,11.5vw,3.75rem)] font-script text-[#8C1D2F]"
-                            >
-                                Joel
-                            </div>
-                            <span
-                                id="ampersand"
-                                class="text-[clamp(1.5rem,6vw,2.25rem)] text-[#C98B93] font-script"
-                            >
-                                &
-                            </span>
-                            <div
-                                id="nombre-abigail"
-                                class="text-[clamp(2.25rem,11.5vw,3.75rem)] font-script text-[#8C1D2F]"
-                            >
-                                Jenny
-                            </div>
-                        </div>
+            <!-- Nombres de los novios con separador -->
+            <div class="mb-8">
+                <div
+                    id="nombre-fernando"
+                    class="text-5xl font-script text-[#8C1D2F] text-center mb-2"
+                >
+                    Joel
+                </div>
 
-                        <div class="mt-2 flex items-center justify-center gap-2">
-                            <div
-                                id="linea-izq"
-                                class="h-px w-16 bg-gradient-to-r from-transparent to-[#C98B93]"
-                            />
-                            <div class="h-1 w-1 rounded-full bg-[#C98B93]" />
-                            <div
-                                id="linea-der"
-                                class="h-px w-16 bg-gradient-to-l from-transparent to-[#C98B93]"
-                            />
-                        </div>
-                    </div>
-                ) : (
-                    // Versión genérica: exactamente como estaba.
-                    <div class="mb-8">
-                        <div
-                            id="nombre-fernando"
-                            class="text-5xl mb-2 font-script text-[#8C1D2F] text-center"
-                        >
-                            Joel
-                        </div>
-
-                        <div class="flex items-center justify-center gap-4 py-3">
-                            <div
-                                id="linea-izq"
-                                class="h-px w-16 bg-gradient-to-r from-transparent to-[#C98B93]"
-                            />
-                            <span
-                                id="ampersand"
-                                class="text-3xl text-[#C98B93] font-script"
-                            >
-                                &
-                            </span>
-                            <div
-                                id="linea-der"
-                                class="h-px w-16 bg-gradient-to-l from-transparent to-[#C98B93]"
-                            />
-                        </div>
-
-                        <div
-                            id="nombre-abigail"
-                            class="text-5xl mt-2 font-script text-[#8C1D2F] text-center"
-                        >
-                            Jenny
-                        </div>
-                    </div>
-                )
-            }
-
-            <!-- Fecha (versión genérica: va debajo de los nombres) -->
-            {
-                !invitado && (
+                <!-- Separador elegante -->
+                <div class="flex items-center justify-center gap-4 py-3">
                     <div
-                        id="fecha"
-                        class="text-center mb-8 font-serif text-[#1F1F1F]"
+                        id="linea-izq"
+                        class="h-px w-16 bg-gradient-to-r from-transparent to-[#C98B93]"
                     >
-                        <p class="font-charm text-2xl tracking-wider">{FECHA}</p>
                     </div>
-                )
-            }
-
-            <!-- Invitación personal: el cuadro con el nombre y la fecha debajo -->
-            {
-                invitado && (
-                    <div id="tarjeta-invitado" class="flex justify-center mb-6">
-                        <div class="relative border border-[#8C1D2F]/30 bg-white/40 px-8 py-4 text-center">
-                            {/* Esquinas marcadas: dan el aire de tarjeta impresa */}
-                            <span class="absolute -top-px -left-px h-3 w-3 border-t-2 border-l-2 border-[#8C1D2F]" />
-                            <span class="absolute -top-px -right-px h-3 w-3 border-t-2 border-r-2 border-[#8C1D2F]" />
-                            <span class="absolute -bottom-px -left-px h-3 w-3 border-b-2 border-l-2 border-[#8C1D2F]" />
-                            <span class="absolute -bottom-px -right-px h-3 w-3 border-b-2 border-r-2 border-[#8C1D2F]" />
-
-                            <p class="font-serif text-sm uppercase tracking-[0.3em] text-[#8C1D2F]">
-                                Con cariño para
-                            </p>
-
-                            <p class="font-script mt-1 text-3xl leading-snug text-[#8C1D2F]">
-                                {invitado}
-                            </p>
-                        </div>
-                    </div>
-                )
-            }
-
-            {
-                invitado && (
+                    <span
+                        id="ampersand"
+                        class="text-3xl text-[#C98B93] font-script">&</span
+                    >
                     <div
-                        id="fecha"
-                        class="text-center mb-8 font-serif text-[#1F1F1F]"
+                        id="linea-der"
+                        class="h-px w-16 bg-gradient-to-l from-transparent to-[#C98B93]"
                     >
-                        <p class="font-charm text-lg tracking-wider">{FECHA}</p>
                     </div>
-                )
-            }
+                </div>
+
+                <div
+                    id="nombre-abigail"
+                    class="text-5xl font-script text-[#8C1D2F] text-center mt-2"
+                >
+                    Jenny
+                </div>
+            </div>
+
+            <!-- Fecha -->
+            <div id="fecha" class="text-center mb-8 font-serif text-[#1F1F1F]">
+                <p class="font-charm text-2xl tracking-wider">
+                    Domingo 27 de Septiembre
+                </p>
+            </div>
 
             <!-- Sobre -->
             <div
@@ -285,10 +197,6 @@ const FECHA = "Domingo 27 de Septiembre";
             gsap.set("#linea-der", { scaleX: 0, transformOrigin: "left" });
             gsap.set("#ampersand", { opacity: 0, scale: 0, rotation: -180 });
             gsap.set("#fecha", { opacity: 0, y: 20 });
-            gsap.set("#tarjeta-invitado", { opacity: 0, y: 16, scale: 0.96 });
-            // El orden vertical cambia según la variante, así que la cascada
-            // también: con cuadro entra nombre → cuadro → fecha → sobre.
-            const conTarjeta = !!document.getElementById("tarjeta-invitado");
             gsap.set("#sobre-container", { opacity: 0, y: 30, scale: 0.9 });
             gsap.set("#instruccion", { opacity: 0 });
             gsap.set("#hoja-dorada-izq", {
@@ -418,20 +326,9 @@ const FECHA = "Domingo 27 de Septiembre";
                     0.7,
                 )
                 .to(
-                    "#tarjeta-invitado",
-                    {
-                        opacity: 1,
-                        y: 0,
-                        scale: 1,
-                        duration: 1,
-                        ease: "power2.out",
-                    },
-                    1.2,
-                )
-                .to(
                     "#fecha",
                     { opacity: 1, y: 0, duration: 1, ease: "power2.out" },
-                    conTarjeta ? 1.35 : 1.2,
+                    1.2,
                 )
                 .to(
                     "#sobre-container",
@@ -442,12 +339,12 @@ const FECHA = "Domingo 27 de Septiembre";
                         duration: 1,
                         ease: "power2.out",
                     },
-                    conTarjeta ? 1.5 : 1.2,
+                    1.2,
                 )
                 .to(
                     "#instruccion",
                     { opacity: 1, duration: 0.8, ease: "power2.out" },
-                    conTarjeta ? 1.8 : 1.4,
+                    1.4,
                 );
 
             // ── Movimientos naturales de hojas ──────────────────────

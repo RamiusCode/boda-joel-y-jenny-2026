@@ -1,0 +1,222 @@
+ENLACES DE INVITACIÓN — BODA JOEL & JENNY
+=======================================================
+Generado: 2026-08-19
+Total de invitados: 70
+Base: http://localhost:4321
+=======================================================
+
+Invitación genérica (sin nombre):
+http://localhost:4321/
+
+-------------------------------------------------------
+
+1. Desiderio Rios y Familia
+http://localhost:4321/desiderio-rios
+
+2. Yuselin Flores
+http://localhost:4321/yuselin-flores
+
+3. Hugo Mamani y Sra
+http://localhost:4321/hugo-mamani
+
+4. Rubenstein Coro y Sra
+http://localhost:4321/rubenstein-coro
+
+5. Alicia Coro y Familia
+http://localhost:4321/alicia-coro
+
+6. Jaime
+http://localhost:4321/jaime
+
+7. Rilmer Yupanqui C.
+http://localhost:4321/rilmer-yupanqui-c
+
+8. Ruddy Yupanqui y Sra
+http://localhost:4321/ruddy-yupanqui
+
+9. Nelva Mamani
+http://localhost:4321/nelva-mamani
+
+10. Dalia Choque
+http://localhost:4321/dalia-choque
+
+11. Cristian Centeno
+http://localhost:4321/cristian-centeno
+
+12. Pablo Quiroga
+http://localhost:4321/pablo-quiroga
+
+13. Alvaro Choque
+http://localhost:4321/alvaro-choque
+
+14. Fredy Rolando Quisberth y Sra
+http://localhost:4321/fredy-rolando-quisberth
+
+15. Obeth Jhoel Condori
+http://localhost:4321/obeth-jhoel-condori
+
+16. Luz Alcon
+http://localhost:4321/luz-alcon
+
+17. Henry Bargas
+http://localhost:4321/henry-bargas
+
+18. Enrique Flores
+http://localhost:4321/enrique-flores
+
+19. Herminio Rivas y Sra
+http://localhost:4321/herminio-rivas
+
+20. Ever Mena
+http://localhost:4321/ever-mena
+
+21. Rodrigo Uzcamaita
+http://localhost:4321/rodrigo-uzcamaita
+
+22. Pr. Ruben Chambilla y Sra
+http://localhost:4321/ruben-chambilla
+
+23. Pr. Sabino Cruz
+http://localhost:4321/sabino-cruz
+
+24. Pr. Mequias Pari
+http://localhost:4321/mequias-pari
+
+25. Pr. Maguiber Choque y Sra
+http://localhost:4321/maguiber-choque
+
+26. Pr. Daniel Villca y Sra
+http://localhost:4321/daniel-villca
+
+27. Pr. Luis Calle
+http://localhost:4321/luis-calle
+
+28. Pr. Luis Alfredo Poma y Sra
+http://localhost:4321/luis-alfredo-poma
+
+29. Pr. Jhon Mamani y Sra
+http://localhost:4321/jhon-mamani
+
+30. Abner Azael
+http://localhost:4321/abner-azael
+
+31. Aide Condori
+http://localhost:4321/aide-condori
+
+32. Gresia Condori
+http://localhost:4321/gresia-condori
+
+33. Ariel Zarabia
+http://localhost:4321/ariel-zarabia
+
+34. Brenda Condori
+http://localhost:4321/brenda-condori
+
+35. Edison Quisberth y Sra
+http://localhost:4321/edison-quisberth
+
+36. Gabriel Prado
+http://localhost:4321/gabriel-prado
+
+37. Gladys Limachi
+http://localhost:4321/gladys-limachi
+
+38. Jhonson Lovera y Sra
+http://localhost:4321/jhonson-lovera
+
+39. Iver Flores
+http://localhost:4321/iver-flores
+
+40. Jesus Villegas y Sra
+http://localhost:4321/jesus-villegas
+
+41. Yessica Fernanda Calle
+http://localhost:4321/yessica-fernanda-calle
+
+42. Lucas Maldonado
+http://localhost:4321/lucas-maldonado
+
+43. Daniel Maldonado
+http://localhost:4321/daniel-maldonado
+
+44. Alina Maldonado
+http://localhost:4321/alina-maldonado
+
+45. Miguel Maldonado
+http://localhost:4321/miguel-maldonado
+
+46. Ivan Maldonado
+http://localhost:4321/ivan-maldonado
+
+47. Maribel Cori
+http://localhost:4321/maribel-cori
+
+48. Noemi Soraide
+http://localhost:4321/noemi-soraide
+
+49. Marco Tancara
+http://localhost:4321/marco-tancara
+
+50. Mary Poma
+http://localhost:4321/mary-poma
+
+51. Merling Mendoza y Sra
+http://localhost:4321/merling-mendoza
+
+52. Mipzar Marquez
+http://localhost:4321/mipzar-marquez
+
+53. Pedro Capa y Sra
+http://localhost:4321/pedro-capa
+
+54. Pr. Nelo Quiuchaca y Sra
+http://localhost:4321/nelo-quiuchaca
+
+55. Elmer Valencia y Sra
+http://localhost:4321/elmer-valencia
+
+56. Richar Quispe y Sra
+http://localhost:4321/richar-quispe
+
+57. Sindy Mamani
+http://localhost:4321/sindy-mamani
+
+58. Ernesto Cumara
+http://localhost:4321/ernesto-cumara
+
+59. Frans
+http://localhost:4321/frans
+
+60. Miriam Perez
+http://localhost:4321/miriam-perez
+
+61. Bladimir Cruz
+http://localhost:4321/bladimir-cruz
+
+62. Madithza
+http://localhost:4321/madithza
+
+63. Brayan Quispe
+http://localhost:4321/brayan-quispe
+
+64. Angel Guerra
+http://localhost:4321/angel-guerra
+
+65. Beimar Choque
+http://localhost:4321/beimar-choque
+
+66. Bismar Choque
+http://localhost:4321/bismar-choque
+
+67. Daner Choque
+http://localhost:4321/daner-choque
+
+68. Simion Condori y Sra
+http://localhost:4321/simion-condori
+
+69. Wilmer Churata
+http://localhost:4321/wilmer-churata
+
+70. Fredy Pizza
+http://localhost:4321/fredy-pizza
+
